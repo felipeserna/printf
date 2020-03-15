@@ -5,4 +5,4 @@
 #include <stdarg.h>
 #include <unistd.h>
 int _write(char c);
-#end if /* HOLBERTON_H */
+#endif /* HOLBERTON_H */
