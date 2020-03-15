@@ -1,2 +1,3 @@
-# printf
-# printf
+# Printf
+
+Synopsis
