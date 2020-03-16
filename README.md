@@ -14,4 +14,6 @@ The specifiers ares:
 
 # General features
 
-All our files will be compiled on Ubuntu 14.04 LTS # | We compile with gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic # | The prototypes of all functions should be included in the header file called holberton.h
+*All our files will be compiled on Ubuntu 14.04 LTS.
+*We compile with gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic.
+*The prototypes of all functions should be included in the header file called holberton.h
