@@ -24,7 +24,6 @@ int _printf(const char *format, ...)
 		return (-1);
 
 	va_start(arg_list, format);
-	/*Calling parser function*/
 	printed = analyzer(format, f_list, arg_list);
 	va_end(arg_list);
 	return (printed);
