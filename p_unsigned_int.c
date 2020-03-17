@@ -7,14 +7,14 @@
  */
 int p_unsigned_int(va_list list)
 {
-	unsigned int uns;
+	unsigned int num;
 
-	uns = va_arg(list, unsigned int);
+	num = va_arg(list, unsigned int);
 
-	if (uns == 0)
-		return (p_unsigned_int(uns));
+	if (num == 0)
+		return (p_unsigned_int(num));
 
-	if (uns < 1)
+	if (num < 1)
 		return (-1);
-	return (p_unsigned_int(uns));
+	return (p_unsigned_int(num));
 }
