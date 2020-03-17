@@ -9,7 +9,7 @@ int p_unsigned_integer(va_list list)
 {
 	unsigned int num;
 
-	num = va_arg(list, unsigned int);
+	*num = va_arg(list, unsigned int);
 
 	if (num == 0)
 		return (p_unsigned_integer(num));
