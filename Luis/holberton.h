@@ -4,6 +4,9 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
+/*La struct functions sirve para definir una estructura
+para simbolos y funciones */
+
 struct functions
 {
 	char *sym;
