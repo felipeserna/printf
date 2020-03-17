@@ -11,7 +11,7 @@ int p_unsigned_integer(va_list list)
 	unsigned int i, m, n, k;
 	int j;
 
-	n = va_arg(u, unsigned int);
+	n = va_arg(list, unsigned int);
 	m = 1000000000;
 	a[0] = n / m;
 	for (i = 1; i < 10; i++)
