@@ -35,5 +35,6 @@ unsigned int base_len(unsigned int, int);
 char *rev_string(char *);
 void write_base(char *str);
 char *_memcpy(char *dest, char *src, unsigned int n);
+int hex_check(int num, char x);
 
 #endif
