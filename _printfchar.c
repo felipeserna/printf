@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- * _printfchar - Prints character
+ * p_char - Prints character
  * @list: list of arguments
  * Return: Return amount of characters printed.
  */
-int _printfchar(va_list list)
+int p_char(va_list list)
 {
         _putchar(va_arg(list, int));
         return (1);
