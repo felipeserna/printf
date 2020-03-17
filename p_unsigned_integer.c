@@ -2,9 +2,11 @@
 
 /**
  * p_unsigned_integer - Prints Unsigned integers
- * @list: List of all of the argumets
- * Return: Return a acount the numbers
+ * n = input, m = max number,
+ * i = iterator, j = print,
+ * k = formated into decimal
  */
+
 int p_unsigned_integer(va_list list)
 {
 	unsigned int a[10];
