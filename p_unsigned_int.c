@@ -3,7 +3,7 @@
  * @list: List of all of the argumets
  * Return: Return a acount the numbers
  */
-int _printf_unsigned_int(va_list list)
+int p_unsigned_int(va_list list)
 {
         unsigned int uns;                                                                                                                                                                                                                               uns = va_arg(list, unsigned int);                                                                               
         if (uns == 0)
