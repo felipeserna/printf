@@ -16,7 +16,7 @@ typedef struct functions func_t;
 
 int analyzer(const char *format, func_t f_list[], va_list arg_list);
 int _printf(const char *format, ...);
-int _putchar.c(char);
+int _putchar(char);
 int p_char(va_list);
 int p_string(va_list);
 int p_porcent(va_list);
