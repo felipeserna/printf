@@ -5,6 +5,8 @@
  * n = input, m = max number,
  * i = iterator, j = print,
  * k = formated into decimal
+ * @list: list
+ * Return: unsigned integer
  */
 
 int p_unsigned_integer(va_list list)

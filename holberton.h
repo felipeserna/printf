@@ -3,10 +3,12 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdarg.h>
-
-/*La struct functions sirve para definir una estructura
-para simbolos y funciones */
-
+/**
+* struct functions - sirve para definir una estructura
+*para simbolos y funciones
+* @sym: symbols
+* @f: functions
+**/
 struct functions
 {
 	char *sym;

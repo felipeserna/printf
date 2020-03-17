@@ -1,0 +1,11 @@
+.TH _printf 3 "17 Mar 2020" "version 1.0"
+.SH NAME
+_printf - formatted output conversion
+.SH SYNOPSIS
+#include "holberton.h"
+.SH DESCRIPTION
+The _printf() function produces output according to a \fIformat\fP as described below.
+The function _printf writes output to \fIstdout\fP (the standard output):
+It writes the output under the control of a \fIformat\fP string that specifies
+how subsequent arguments (or arguments accessed via the variable-length
+argument facilities

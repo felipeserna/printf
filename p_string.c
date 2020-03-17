@@ -7,12 +7,15 @@
  */
 int p_string(va_list list)
 {
-        int a;
-        char *str;
+	int a;
+	char *str;
 
-        str = va_arg(list, char *);
-        if (str == NULL)
-                str = "(null)";
-        for (a = 0; str[a] != '\0'; a++)
-                _putchar(str[a]);
-        return (a);                                                                                                     }
+	str = va_arg(list, char *);
+
+	if (str == NULL)
+		str = "(null)";
+
+	for (a = 0; str[a] != '\0'; a++)
+		_putchar(str[a]);
+	return (a);
+}

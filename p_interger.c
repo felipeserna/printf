@@ -7,8 +7,8 @@
  */
 int p_interger(va_list list)
 {
-        int num;
+	int num;
 
-        num = p_number(list);
-        return (num);
+	num = p_number(list);
+	return (num);
 }
