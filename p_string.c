@@ -13,6 +13,6 @@ int p_string(va_list list)
         str = va_arg(list, char *);
         if (str == NULL)
                 str = "(null)";
-        for (a = 0; str[a] != '\0'; i++)
+        for (a = 0; str[a] != '\0'; a++)
                 _putchar(str[a]);
         return (a);                                                                                                     }
