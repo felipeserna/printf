@@ -22,6 +22,6 @@ int p_string(va_list);
 int p_porcent(va_list);
 int p_interger(va_list);
 int p_number(va_list);
-int p_unsigned_int(va_list);
+int p_unsigned_integer(va_list);
 
 #endif
