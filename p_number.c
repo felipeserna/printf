@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- * _printnum - prints a number
+ * p_number - prints a number
  * @args: List of arguments
  * Return: The number of arguments printed
  */
-int print_number(va_list args)
+int p_number(va_list args)
 {
         int a;
         int d;
@@ -18,7 +18,7 @@ int print_number(va_list args)
 
         if (a < 0)
         {
-                l += _write('-');
+                l += _putchar('-');
                 num = a * -1;
         }
         else
@@ -29,7 +29,7 @@ int print_number(va_list args)
 
         for (; d != 0; )
         {
-                l += _write('0' + num / d);
+                l += _putchar('0' + num / d);
                 num %= d;
                 d /= 10;
         }
