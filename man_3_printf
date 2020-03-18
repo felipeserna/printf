@@ -103,3 +103,12 @@ A character that specifies the type of conversion to be applied.  The conversion
 .PP
 d, i   The int argument is converted to signed decimal notation.  The precision, if any, gives the minimum number of  digits  that  must  appear;  if  the  converted value requires fewer digits, it is padded on the left with zeros.  The default precision is 1.  When 0 is printed with an explicit precision 0, the output is empty.
 .PP
+o, u, x, X
+.RS +7
+The unsigned int argument is converted to unsigned octal (o), unsigned decimal (u), or unsigned hexadecimal (x and
+X) notation.   The  letters abcdef are used for x conversions; the letters ABCDEF are used for X conversions.  The
+precision, if any, gives the minimum number of digits that must appear; if the converted value requires fewer dig
+its, it is padded on the left with zeros. The default precision is 1. When 0 is printed with an explicit precision
+0, the output is empty.
+.RE
+.PP
