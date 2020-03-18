@@ -95,3 +95,11 @@ h      A  following integer conversion corresponds to a short int or unsigned sh
 .PP
 l      (ell) A following integer conversion corresponds to a long int or unsigned long int argument, or a following n conversion  corresponds to a pointer to a long int argument, or a following c conversion corresponds to a wint_t argument, or a following s conversion corresponds to a pointer to wchar_t argument.
 .PP
+The  SUSv2  knows  about only the length modifiers h (in hd, hi, ho, hx, hX, hn) and l (in ld, li, lo, lx, lX, ln, lc, ls) and L (in Le, LE, Lf, Lg, LG).
+.RS -4
+\fBThe conversion specifier\fP
+.RE
+A character that specifies the type of conversion to be applied.  The conversion specifiers and their meanings are:
+.PP
+d, i   The int argument is converted to signed decimal notation.  The precision, if any, gives the minimum number of  digits  that  must  appear;  if  the  converted value requires fewer digits, it is padded on the left with zeros.  The default precision is 1.  When 0 is printed with an explicit precision 0, the output is empty.
+.PP
