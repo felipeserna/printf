@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * p_number - prints a number
  * @args: List of arguments
