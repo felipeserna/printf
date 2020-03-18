@@ -1,7 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
 int hex_check(int, char);
-
 /**
  * print_octal - Prints the numeric representation of a number in octal base
  * @list: List of all the arguments passed to the program
