@@ -1,9 +1,8 @@
 #include "holberton.h"
-
 /**
- * p_porcent - Prints a percent
+ * p_porcent - Prints a percent symbol
  * @list: list of arguments
- * Return: Return the amount of characters printed.
+ * Return: Amount of characters printed.
  */
 int p_porcent(__attribute__((unused))va_list list)
 {
