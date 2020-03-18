@@ -62,3 +62,14 @@ is made zero (by prefixing a 0 if it was not zero already). For x and X conversi
 .PP
 The five flag characters above are defined in the C standard.  The SUSv2 specifies one further flag character.
 .PP
+'      For decimal conversion (i, d, u, f, F, g, G) the output is to be grouped with thousands' grouping characters if the .RS +7 locale information indicates any. Note that many versions of gcc(1) cannot parse this option and will issue a warning. SUSv2 does not include %'F.
+.RE
+.PP
+glibc 2.2 adds one further flag character.
+.PP
+I      For decimal integer conversion (i, d, u)  the output uses the locale's  alternative  output  digits,  if any.  For .RS +7 example, since glibc 2.2.3 this will give Arabic-Indic digits in the Persian ("fa_IR") locale.
+.RE
+.PP
+.RS -4
+\fBThe field width\fP
+.RE
