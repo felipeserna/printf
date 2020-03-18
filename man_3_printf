@@ -20,9 +20,15 @@ The format string is a character string, beginning and ending in its initial shi
 Each conversion specification is introduced by the character \fI%\fP, and ends with a \fIconversion specifier\fP. In between there may be (in  this  order) zero or more \fIflags\fP, an optional minimum \fIfield width\fP, an optional \fIprecision\fP and an optional \fIlength modifier\fP.
 .PP
 
-The arguments must correspond properly (after type promotion) with the conversion specifier. By default, the arguments are
-used in the order given, where each '*' and each conversion specifier asks for the next argument (and it is an error if
-insufficiently many arguments are given). One can also specify explicitly which argument is taken, at each place
-where an argument is required, by writing "%m$" instead of '%' and "*m$" instead of '*', where the decimal integer
-\fIm\fP denotes the position in the argument list of the desired argument, indexed starting from 1.  Thus,
+The arguments must correspond properly (after type promotion) with the conversion specifier. By default, the arguments are used in the order given, where each '*' and each conversion specifier asks for the next argument (and it is an error if insufficiently many arguments are given). One can also specify explicitly which argument is taken, at each place where an argument is required, by writing "%m$" instead of '%' and "*m$" instead of '*', where the decimal integer \fIm\fP denotes the position in the argument list of the desired argument, indexed starting from 1.  Thus,
+.PP
+.RS +4
+printf("%*d", width, num);
+.RE
+and
+.RS +4
+printf("%2$*1$d", width, num);
+.PP
+.RE
+are equivalent. The second style allows repeated references to the same argument. The C99 standard does not include the style using '$', which comes from the Single UNIX Specification. If the style using '$' is used, it must be used through out for all conversions taking an argument and all width and precision arguments, but it may be mixed with "%%" formats which do not consume an argument. There may be no gaps in the numbers of arguments specified using '$'; for example, if arguments 1 and 3 are specified, argument 2 must also be specified somewhere in the format string.
 .PP
