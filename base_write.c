@@ -1,6 +1,5 @@
 #include "holberton.h"
 #include <stdio.h>
-
 /**
  * write_base - sends characters to be written on standard output
  * @str: String to parse
