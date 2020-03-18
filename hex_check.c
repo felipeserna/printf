@@ -1,6 +1,5 @@
 #include "holberton.h"
 #include <stdio.h>
-
 /**
  * hex_check - Checks which hex function is calling it
  * @num: Number to convert into letter
