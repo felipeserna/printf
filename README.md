@@ -20,16 +20,12 @@ The specifiers ares:
 
  # Example
 
-#include "holberton.h"
-#include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: Always 0
- */
+	#include "holberton.h"
+	#include <stdio.h>
 
-int main(void)
-{
+
+	int main(void)
+	{
 	int a;
 	int b;
 	char *str;
