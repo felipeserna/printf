@@ -17,3 +17,31 @@ The specifiers ares:
 * All our files will be compiled on Ubuntu 14.04 LTS.
 * We compile with gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic.
 * The prototypes of all functions should be included in the header file called holberton.h
+
+ # Example
+
+#include "holberton.h"
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
+
+int main(void)
+{
+	int a;
+	int b;
+	char *str;
+
+	str = "school";
+	a = _printf("%r\n", "Holberton"); /*expected: notrebloh*/
+	printf("--->%d\n", a); /*expected: 10*/
+
+	b = _printf("%r\n", str); /*expected: loohcs*/
+	printf("%d\n", b); /*expected: 7*/
+
+	b = _printf("%r\n", str); /*expected: loohcs*/
+	printf("%d\n", b); /*expected: 7*/
+	return (0);
+}
