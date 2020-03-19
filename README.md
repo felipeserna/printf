@@ -2,7 +2,7 @@
 
 # Installation
 
-To install _printf you need to write on your shell "sudo apt-get install _printf".
+To install _printf you need to download all files from the repository or clone it to a folder, compile and execute this function.
 
 # Synopsis
 
