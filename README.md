@@ -40,4 +40,8 @@ The specifiers ares:
 	b = _printf("%r\n", str); /*expected: loohcs*/
 	printf("%d\n", b); /*expected: 7*/
 	return (0);
-}
+	}
+
+# Team
+
+For the preparation of this project we worked in unity with Luis Alejandro Marin Cuéllar and Felipe Serna, students of of Software Engineering at Holberton School from Cohort 11.
