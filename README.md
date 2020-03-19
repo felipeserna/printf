@@ -1,4 +1,8 @@
-# Printf
+# _printf
+
+# Installation
+
+To install _printf you need to write on your shell "sudo apt-get install _printf".
 
 # Synopsis
 
@@ -44,4 +48,4 @@ The specifiers ares:
 
 # Team
 
-For the preparation of this project we worked in unity with Luis Alejandro Marin Cuéllar and Felipe Serna, students of of Software Engineering at Holberton School from Cohort 11.
+For the preparation of this project we worked in unity with Luis Alejandro Marin Cuéllar and Felipe Serna, students of Software Engineering at Holberton School from Cohort 11.
