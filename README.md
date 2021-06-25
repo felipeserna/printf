@@ -216,15 +216,21 @@ Handle the following conversion specifier: `p`.
 **8. The big print gives and the small print takes away**
 
 Handle the following flag characters for non-custom conversion specifiers:
-	* `+`
-	* space
-	* `#`
+
+* `+`
+
+* space
+
+* `#`
 
 **9. Sarcasm is lost in print**
 
 Handle the following length modifiers for non-custom conversion specifiers:
-	* `l`
-	* `h`
+
+* `l`
+
+* `h`
+
 Conversion specifiers to handle: `d`, `i`, `u`, `o`, `x`, `X`
 
 **10. Print some money and give it to us for the rain forests**
@@ -246,12 +252,14 @@ Handle the `-` flag character for non-custom conversion specifiers.
 **14. Print is the sharpest and the strongest weapon of our party**
 
 Handle the following custom conversion specifier:
-	* `r` : prints the reversed string
+
+* `r` : prints the reversed string
 
 **15. The flood of print has turned reading into a process of gulping rather than savoring**
 
 Handle the following custom conversion specifier:
-	* `R`: prints the rot13'ed string
+
+* `R`: prints the rot13'ed string
 
 **16. ***
 
